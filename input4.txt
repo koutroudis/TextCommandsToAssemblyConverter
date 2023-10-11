@@ -1,0 +1,23 @@
+program sea{
+	declare a,b,c,g;
+	function P1(in x,inout y){
+		declare a,b,c;
+		while(a+b<1 and b<5){
+			if(c = 1) then{
+				b := (a+5)*(2/c);
+				return(b)
+			}
+			else{
+				c:=0;
+				return(P1(in a,inout y))
+			}
+		}
+	}
+	{c:=3;
+	b:=2;
+	g:=P1(in c, inout b)}
+		
+	
+}
+		
+		

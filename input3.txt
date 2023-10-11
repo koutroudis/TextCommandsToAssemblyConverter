@@ -1,0 +1,11 @@
+program max{
+	declare a, b ,c;
+	function max(in a, inout c){/*asdasdas*/
+		forcase when(a>2):
+			c:=c+1//asaddfbbvfded
+		default:
+			c:=2
+			
+	}
+} 
+			

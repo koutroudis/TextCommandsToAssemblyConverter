@@ -1,0 +1,17 @@
+program ls{
+	declare a,A,B,b,c;
+	function f1(inout b){
+		function f2(in c,inout a){
+			{B:=A;
+			b:=a}
+		}
+		{A:=2;
+		c:=4;
+		call f2(in c,inout a)}
+	}
+	{a:=3;
+	A:=4;
+	b:=1;
+	call f1(inout b);
+	print (A)}
+}
